@@ -4,6 +4,7 @@ V3.3.0 版本内容更新
 1. 新UI
 2. 优化大多数功能
 3. 关闭聊天功能
+[下载链接](https://github.com/chenpuhao/DesktopAide/releases/download/DesktopAide/DesktopAide-withjre-3.3-setup.exe)
 
 注意
 ====
