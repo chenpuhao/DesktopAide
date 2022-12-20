@@ -1,8 +1,9 @@
  DesktopAide
 =====
 <iframe 
-src="https://afdian.net/leaflet?slug={1}" 
-width="640" scrolling="no" 
+src="https://afdian.net/leaflet?slug={desktopaide}" 
+width="640"
+scrolling="no" 
 height="200" 
 frameborder="0">
 </iframe>
