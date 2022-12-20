@@ -1,2 +1,7 @@
 # DesktopAide
-#This is a project for DesktopAide
+===========================
+
+###########V3.3.0 版本内容更新
+1. 新UI
+2. 优化大多数功能
+3. 关闭聊天功能
