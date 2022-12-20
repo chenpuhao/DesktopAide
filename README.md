@@ -1,19 +1,7 @@
  DesktopAide
 =====
-<iframe 
-src="https://afdian.net/leaflet?slug={desktopaide}" 
-width="640"
-scrolling="no" 
-height="200" 
-frameborder="0">
-</iframe>
-<iframe 
-src="https://afdian.net/leaflet?slug={desktopaide}" 
-width="640" 
-scrolling="no" 
-height="200" 
-frameborder="0">
-</iframe>
+如果您喜欢本产品，请在爱发电为我发电，谢谢：
+https://afdian.net/a/desktopaide
 V3.3.0 版本内容更新
 =======
 1. 新UI
