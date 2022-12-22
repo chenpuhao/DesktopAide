@@ -7,6 +7,10 @@ DeskAide是一款开源的基于Windows系统的桌面程序
 ----
 https://afdian.net/a/desktopaide
 
+已知问题
+======
+整理桌面中默认类型不可用，请使用自定义类型。
+
 V3.3.0 版本内容更新
 =======
 1. 新UI
