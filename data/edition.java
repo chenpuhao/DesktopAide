@@ -1,1 +1,0 @@
-<html><body><script>document.cookie="_test=8cf8d4855931bb6d3a9bbff5007bd0b8 ; expires=Thu, 31-Dec-37 23:55:55 GMT; path=/" ;document.location.href="http://roboq.eu.org/edition.java?i=1";</script></body></html>
