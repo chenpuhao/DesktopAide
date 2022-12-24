@@ -14,8 +14,8 @@
   * [发行版本](#发行版本)
     * [V3.3.0 版本内容更新](#v330-版本内容更新)
 <!-- TOC -->
-<div style="text-align: center;">中文|<a href="README-en.md">英文</a> </div>
-<!-- [英文](README-en.md)-->
+中文|[英文](README-en.md)
+
 
 ## DesktopAide
 DeskAide是一款开源的基于Windows系统的桌面程序
