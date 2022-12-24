@@ -1,8 +1,29 @@
+<br />
+
+<p align="center">
+  <a href="https://github.com/shaojintian/Best_README_template/">
+    <img src="icon/DesktopAide.ico" alt="Logo" width="80" height="80">
+  </a>
+
+<h3 align="center">DesktopAide</h3>
+  <p align="center">
+   Welcome to DesktopAide
+    <br />
+    <a href="https://github.com/chenpuhao/DesktopAide/blob/2245ce7c39e096135f6c4f7990c7efbed634c689/README-en.md"><strong>Explore the documentation for this project »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/chenpuhao/DesktopAide/releases/download/DesktopAide/DesktopAide-withjre-3.3-setup.exe">Download the installation package</a>
+    ·
+    <a href="https://github.com/chenpuhao/DesktopAide/blob/main/README-en.md#known-issues">Report a bug</a>
+    ·
+    <a href="https://github.com/chenpuhao/DesktopAide/blob/2245ce7c39e096135f6c4f7990c7efbed634c689/README.md">Chinese interface</a>
+  </p>
+
 directory
 ===
 <!-- TOC -->
 * [directory](#directory)
-  * [DesktopAide](#desktopaide)
+  * [Introduction to DesktopAide](#introduction-to-desktopaide)
     * [Copyright notice](#copyright-notice)
     * [Known issues](#known-issues)
     * [note](#note)
@@ -14,7 +35,7 @@ directory
     * [Version V3.3.0 content update](#version-v330-content-update)
 <!-- TOC -->
 [Chinese](README.md)|English
-## DesktopAide
+## Introduction to DesktopAide
 DeskAide is an open source Windows-based desktop program
 It helps you organize your desktop and find files, especially for school teachers
 ### Copyright notice

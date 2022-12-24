@@ -1,9 +1,29 @@
+<br />
+
+<p align="center">
+  <a href="https://github.com/shaojintian/Best_README_template/">
+    <img src="icon/DesktopAide.ico" alt="Logo" width="80" height="80">
+  </a>
+
+<h3 align="center">DesktopAide</h3>
+  <p align="center">
+   欢迎使用DesktopAide
+    <br />
+    <a href="https://github.com/chenpuhao/DesktopAide/blob/2245ce7c39e096135f6c4f7990c7efbed634c689/README.md"><strong>探索本项目的文档 »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/chenpuhao/DesktopAide/releases/download/DesktopAide/DesktopAide-withjre-3.3-setup.exe">下载安装包</a>
+    ·
+    <a href="https://github.com/chenpuhao/DesktopAide/blob/main/README.md#%E5%B7%B2%E7%9F%A5%E9%97%AE%E9%A2%98">报告Bug</a>
+    ·
+    <a href="https://github.com/chenpuhao/DesktopAide/blob/2245ce7c39e096135f6c4f7990c7efbed634c689/README-en.md">英文界面</a>
+  </p>
 
 目录
  ===
 <!-- TOC -->
 * [目录](#目录)
-  * [DesktopAide](#desktopaide)
+  * [DesktopAide简介](#desktopaide简介)
     * [版权说明](#版权说明)
     * [已知问题](#已知问题)
     * [注意](#注意)
@@ -14,10 +34,9 @@
   * [发行版本](#发行版本)
     * [V3.3.0 版本内容更新](#v330-版本内容更新)
 <!-- TOC -->
-中文|[英文](README-en.md)
 
 
-## DesktopAide
+## DesktopAide简介
 DeskAide是一款开源的基于Windows系统的桌面程序
 它可以帮助您整理桌面，查找文件，尤其适合学校教师使用
 
