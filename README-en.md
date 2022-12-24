@@ -45,7 +45,6 @@ directory
   * [Release version](#release-version)
     * [Version V3.3.0 content update](#version-v330-content-update)
 <!-- TOC -->
-[Chinese](README.md)|English
 ## Introduction to DesktopAide
 DeskAide is an open source Windows-based desktop program
 It helps you organize your desktop and find files, especially for school teachers
