@@ -12,9 +12,8 @@
   * [发行版本](#发行版本)
     * [V3.3.0 版本内容更新](#v330-版本内容更新)
 <!-- TOC -->
-
+中文|[英文](README-en.md)
 ## DesktopAide
-
 DeskAide是一款开源的基于Windows系统的桌面程序
 它可以帮助您整理桌面，查找文件，尤其适合学校教师使用
 ### 已知问题
@@ -28,7 +27,6 @@ DeskAide是一款开源的基于Windows系统的桌面程序
 如果您喜欢本产品，请在爱发电为我发电，谢谢：
 [点我去发电](https://afdian.net/a/desktopaide)
 
-。
 
 ### 软件截图
 1. #### 桌宠界面(可更换)
@@ -38,7 +36,7 @@ DeskAide是一款开源的基于Windows系统的桌面程序
 3. #### 更多功能界面
     ![](icon/readme/more.png)
 ### 部分代码
-src/main/java/Function/Collation.java
+src/main/java/cn/Function/Collation.java
 ```java
 public class Collation extends Thread {
   static void readAppointedLineNumber(File sourceFile, int lineNumber) {
@@ -62,7 +60,7 @@ public class Collation extends Thread {
 
 }
 ```
-src/main/java/Function/Find.java
+src/main/java/cn/Function/Find.java
 ```java
 public class Find extends JDialog {
   public static List<File> searchFiles(File folder, final String keyword) {
