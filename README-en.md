@@ -10,7 +10,7 @@
   <p align="center">
    Welcome to DesktopAide
     <br />
-    <a href="https://github.com/chenpuhao/DesktopAide/blob/README-en.md"><strong>Explore the documentation for this project »</strong></a>
+    <a href="https://github.com/chenpuhao/DesktopAide/README-en.md"><strong>Explore the documentation for this project »</strong></a>
     <br />
     <br />
     <a href="https://github.com/chenpuhao/DesktopAide/releases/download/DesktopAide/DesktopAide-withjre-3.3-setup.exe">Download the installation package</a>
