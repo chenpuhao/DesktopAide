@@ -18,7 +18,7 @@
     ·
     <a href="https://github.com/chenpuhao/DesktopAide/blob/main/README.md#%E5%B7%B2%E7%9F%A5%E9%97%AE%E9%A2%98">报告Bug</a>
     ·
-    <a href="https://github.com/chenpuhao/DesktopAide/README-en.md">英文界面</a>
+    <a href="README-en.md">英文界面</a>
   </p>
 
 ![](https://img.shields.io/github/license/chenpuhao/DesktopAide)
