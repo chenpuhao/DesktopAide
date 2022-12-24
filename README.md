@@ -36,7 +36,6 @@ DeskAide是一款开源的基于Windows系统的桌面程序
     ![](icon/readme/more.png)
 ### 部分代码
 src/main/java/Function/Collation.java
-
 ```java
 public class Collation extends Thread {
   static void readAppointedLineNumber(File sourceFile, int lineNumber) {
@@ -61,7 +60,6 @@ public class Collation extends Thread {
 }
 ```
 src/main/java/Function/Find.java
-
 ```java
 public class Find extends JDialog {
   public static List<File> searchFiles(File folder, final String keyword) {
