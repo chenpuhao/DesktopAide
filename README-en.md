@@ -20,6 +20,16 @@
     <a href="https://github.com/chenpuhao/DesktopAide/blob/2245ce7c39e096135f6c4f7990c7efbed634c689/README.md">Chinese interface</a>
   </p>
 
+![](https://img.shields.io/github/license/chenpuhao/DesktopAide)
+![](https://img.shields.io/github/languages/count/chenpuhao/DesktopAide)
+![](https://img.shields.io/github/languages/code-size/chenpuhao/desktopaide)
+![](https://img.shields.io/github/downloads/chenpuhao/desktopaide/total)
+![](https://img.shields.io/github/stars/chenpuhao/desktopaide)
+![](https://img.shields.io/github/watchers/chenpuhao/desktopaide)
+![](https://img.shields.io/github/last-commit/chenpuhao/desktopaide)
+![](https://img.shields.io/github/release-date/chenpuhao/desktopaide)
+
+
 directory
 ===
 <!-- TOC -->
