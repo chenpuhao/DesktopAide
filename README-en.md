@@ -31,9 +31,9 @@ If you like this product, please generate electricity for me in love power gener
 1. #### Table pet interface (replaceable)
    ![](icon/Body.png)
 2. #### Declutter the interface
-   ![](icon/readme/collation.png)
+   ![](icon/readme/collation en.png)
 3. #### More functional interface
-   ![](icon/readme/more.png)
+   ![](icon/readme/more en.png)
 ### Part of the code
 src/main/java/en/Function/Collation.java
 ```java
