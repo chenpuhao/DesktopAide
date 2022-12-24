@@ -11,7 +11,7 @@
   <p align="center">
    欢迎使用DesktopAide
     <br />
-    <a href="https://github.com/chenpuhao/DesktopAide/README.md"><strong>探索本项目的文档 »</strong></a>
+    <a href="README.md"><strong>探索本项目的文档 »</strong></a>
     <br />
     <br />
     <a href="https://github.com/chenpuhao/DesktopAide/releases/download/DesktopAide/DesktopAide-withjre-3.3-setup.exe">下载安装包</a>
