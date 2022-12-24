@@ -2,7 +2,7 @@
 <br />
 
 <p align="center">
-  <a href="https://github.com/shaojintian/Best_README_template/">
+  <a href="https://github.com/chenpuhao/DesktopAide">
     <img src="icon/DesktopAide.ico" alt="Logo" width="80" height="80">
   </a>
 
