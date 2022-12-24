@@ -17,7 +17,7 @@
     ·
     <a href="https://github.com/chenpuhao/DesktopAide/blob/main/README-en.md#known-issues">Report a bug</a>
     ·
-    <a href="https://github.com/chenpuhao/DesktopAide/blob/2245ce7c39e096135f6c4f7990c7efbed634c689/README.md">Chinese interface</a>
+    <a href="https://github.com/chenpuhao/DesktopAide/blob/README.md">Chinese interface</a>
   </p>
 
 ![](https://img.shields.io/github/license/chenpuhao/DesktopAide)
