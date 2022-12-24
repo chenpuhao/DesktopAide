@@ -3,6 +3,7 @@ directory
 <!-- TOC -->
 * [directory](#directory)
   * [DesktopAide](#desktopaide)
+    * [Copyright notice](#copyright-notice)
     * [Known issues](#known-issues)
     * [note](#note)
     * [donate](#donate)
@@ -16,6 +17,8 @@ directory
 ## DesktopAide
 DeskAide is an open source Windows-based desktop program
 It helps you organize your desktop and find files, especially for school teachers
+### Copyright notice
+The project is licensed under the MIT license, see [LICENSE](LICENSE)
 ### Known issues
 **If you find a bug during use, please list it in the table below or send it to chenpuhao1229@163.com, thank you**
 1. The default type is not available in the Organize desktop, use a custom type
