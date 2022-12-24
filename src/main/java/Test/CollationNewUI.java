@@ -39,7 +39,7 @@ public class CollationNewUI extends JDialog {
         SimpleDateFormat formatter= new SimpleDateFormat("yyyy年MM月dd日HH:mm:ss z");
         Date date = new Date(System.currentTimeMillis());
         JLabel time = new JLabel(formatter.format(date),JLabel.CENTER);
-        time.setFont(new Font("宋体", Font.PLAIN, 20));
+        time.setFont(new Font("宋体", Font.PLAIN, 30));
         jf.add(time,BorderLayout.NORTH);
         jf.setVisible(true);
         while(true){
