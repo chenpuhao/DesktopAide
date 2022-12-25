@@ -135,7 +135,7 @@ public class Find extends JDialog {
 ## Release version
 
 ### Version V3.3.0 content update
-1. New cn.UI
+1. New UI
 2. Optimize most features
 3. Turn off chat
 4. [Download the link](https://github.com/chenpuhao/DesktopAide/releases/download/DesktopAide/DesktopAide-withjre-3.3-setup.exe)
