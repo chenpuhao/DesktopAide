@@ -21,7 +21,7 @@
     <a href="README-en.md">英文界面</a>
   </p>
 
-![](https://img.shields.io/github/license/chenpuhao/DesktopAide)
+![](https://img.shields.io/github/license/chenpuhao/desktopaide)
 ![](https://img.shields.io/github/languages/count/chenpuhao/DesktopAide)
 ![](https://img.shields.io/github/languages/top/chenpuhao/desktopaide)
 ![](https://img.shields.io/github/languages/code-size/chenpuhao/desktopaide)
