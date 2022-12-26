@@ -52,7 +52,7 @@ It helps you organize your desktop and find files, especially for school teacher
 The project is licensed under the GPL-3.0 license, see [LICENSE](LICENSE)
 ### Known issues
 **If you find a bug during use, please list it in the table below or send it to chenpuhao1229@163.com, thank you**
-1. The default type is not available in the Organize desktop, use a custom type
+1. ~~The default type is not available in the Organize desktop, use a custom type~~
 ### note
 1. If you can help me modify the code, please use IntelliJ IDEA, thanks! No IDEA?[Click me to download](https://www.jetbrains.com/zh-cn/idea/download/)
 2. The Java development front-end will be abandoned, and C# ~~(as long as the author remembers)~~ will be used
@@ -128,7 +128,7 @@ public class Find extends JDialog {
 ```
 ### Future plans
 - [x] Completion of the third edition of the procedure (completion date: 2022/12/01)
-- [ ] Fix default mode for grooming (completion date:)
+- [x] Fix default mode for grooming (completion date: 2022/12/26)
 - [ ] Complete the new UI for the Organize Desktop feature (Completion date:)
 - [ ] ~~Development with C# (Completion date: )~~
 

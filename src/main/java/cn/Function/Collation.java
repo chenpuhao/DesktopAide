@@ -93,14 +93,22 @@ public class Collation extends Thread {
             String stxt = ".txt";
             String spdf = ".pdf";
             //调用查找XXX.后缀结尾的所有文件
-            findEndsWith(file, sword);
-            findEndsWith(file, sppt);
-            findEndsWith(file, ssppt);
-            findEndsWith(file, sexcel);
-            findEndsWith(file, ssexcel);
-            findEndsWith(file, ssword);
-            findEndsWith(file, stxt);
-            findEndsWith(file, spdf);
+                name = "word";
+                findEndsWith(file, sword);
+                name = "powerpoint";
+                findEndsWith(file, sppt);
+                name = "powerpoint";
+                findEndsWith(file, ssppt);
+                name = "excel";
+                findEndsWith(file, sexcel);
+                name = "excel";
+                findEndsWith(file, ssexcel);
+                name = "word";
+                findEndsWith(file, ssword);
+                name = "txt";
+                findEndsWith(file, stxt);
+                name = "pdf";
+                findEndsWith(file, spdf);
         }else{
             lineNumber = 1;
             try {
@@ -159,9 +167,28 @@ public class Collation extends Thread {
                 //是文件，判断是否是以.后缀名结尾
                 if(i.getPath().endsWith(sword)) {
                     File doc;
+                    int lineNumber = 3;
+                    File sourceFile = new File("data/collation/collation.data");
+                    try {
+                        readAppointedLineNumber(sourceFile, lineNumber);
+                    } catch (IOException e) {
+                        throw new RuntimeException(e);
+                    }
                     if (data.equals("false")) {
+                        lineNumber = 1;
+                        try {
+                            readAppointedLineNumber(sourceFile, lineNumber);
+                        } catch (IOException e) {
+                            throw new RuntimeException(e);
+                        }
                         doc = new File(data + "\\" + name + "文件\\" + i.getName());
                     }else{
+                        lineNumber = 1;
+                        try {
+                            readAppointedLineNumber(sourceFile, lineNumber);
+                        } catch (IOException e) {
+                            throw new RuntimeException(e);
+                        }
                         doc = new File(data + "\\" + result + "\\" + i.getName());
                     }
                     File docp = new File(i.getPath());
