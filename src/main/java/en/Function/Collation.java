@@ -59,11 +59,11 @@ public class Collation extends Thread {
             } catch (IOException e) {
                 throw new RuntimeException(e);
             }
-            File word = new File(data + "\\word文件");
-            File txt = new File(data + "\\txt文件");
-            File pdf = new File(data + "\\pdf文件");
-            File powerpoint = new File(data + "\\powerpoint文件");
-            File excel = new File(data + "\\excel文件");
+            File word = new File(data + "\\word");
+            File txt = new File(data + "\\txt");
+            File pdf = new File(data + "\\pdf");
+            File powerpoint = new File(data + "\\powerpoint");
+            File excel = new File(data + "\\excel");
             if (!pdf.exists()) {//如果文件夹不存在
                 pdf.mkdir();//创建文件夹
             }
