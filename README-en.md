@@ -30,14 +30,18 @@
 ![](https://img.shields.io/github/last-commit/chenpuhao/desktopaide)
 ![](https://img.shields.io/github/release-date/chenpuhao/desktopaide)
 
+### Note
+Use administrator mode to run the program
+
 directory
 ===
 <!-- TOC -->
+    * [Note](#note)
 * [directory](#directory)
   * [Introduction to DesktopAide](#introduction-to-desktopaide)
     * [Copyright notice](#copyright-notice)
     * [Known issues](#known-issues)
-    * [note](#note)
+    * [note](#note-1)
     * [donate](#donate)
     * [Software screenshots](#software-screenshots)
     * [Part of the code](#part-of-the-code)
