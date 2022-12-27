@@ -43,6 +43,7 @@ directory
     * [Part of the code](#part-of-the-code)
     * [Future plans](#future-plans)
   * [Release version](#release-version)
+    * [Version V3.3.1 content update](#version-v331-content-update)
     * [Version V3.3.0 content update](#version-v330-content-update)
 <!-- TOC -->
 ## Introduction to DesktopAide
@@ -133,6 +134,12 @@ public class Find extends JDialog {
 - [ ] ~~Development with C# (Completion date: )~~
 
 ## Release version
+
+### Version V3.3.1 content update
+1. Fixed the issue that the default type was not available in the tidy desktop, and added the English interface
+2. [Download cn](https://github.com/chenpuhao/DesktopAide/releases/download/V3.3.1/DesktopAide-withjre-3.3.1-cn-setup.exe)
+3. [Download en](https://github.com/chenpuhao/DesktopAide/releases/download/V3.3.1/DesktopAide-withjre-3.3.1-en-setup.exe)
+
 
 ### Version V3.3.0 content update
 1. New UI

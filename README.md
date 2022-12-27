@@ -45,6 +45,7 @@
     * [部分代码](#部分代码)
     * [未来计划](#未来计划)
   * [发行版本](#发行版本)
+    * [V3.3.1 版本内容更新](#v331-版本内容更新)
     * [V3.3.0 版本内容更新](#v330-版本内容更新)
 <!-- TOC -->
 
@@ -61,7 +62,7 @@ DeskAide是一款开源的基于Windows系统的桌面程序
 ### 注意
 1. 如果您可以帮助我修改代码，请使用IntelliJ IDEA，谢谢！没有IDEA?[点我去下载](https://www.jetbrains.com/zh-cn/idea/download/)
 2. 后续将会放弃Java开发前端，将使用C#~~（只要作者想起来）~~
-3. 到目前为止我们并不提供英文安装包，如有需求请克隆到本地运行
+3. ~~到目前为止我们并不提供英文安装包，如有需求请克隆到本地运行~~
 
 ### 捐助
 如果您喜欢本产品，请在爱发电为我发电，谢谢：
@@ -139,6 +140,11 @@ public class Find extends JDialog {
 - [ ] ~~使用C#进行开发(完成日期:)~~
 
 ## 发行版本
+
+### V3.3.1 版本内容更新
+1. 修复整理桌面中默认类型不可用问题，增加英文界面
+2. [下载链接cn](https://github.com/chenpuhao/DesktopAide/releases/download/V3.3.1/DesktopAide-withjre-3.3.1-cn-setup.exe)
+3. [下载链接en](https://github.com/chenpuhao/DesktopAide/releases/download/V3.3.1/DesktopAide-withjre-3.3.1-en-setup.exe)
 
 ### V3.3.0 版本内容更新
 1. 新UI
