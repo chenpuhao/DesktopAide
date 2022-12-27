@@ -38,7 +38,7 @@
                         <manifest>
                             <addClasspath>true</addClasspath>
                             <classpathPrefix>lib/</classpathPrefix>
-                            <mainClass>en.UI.MainUI</mainClass>
+                            <mainClass>cn.UI.MainUI</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
