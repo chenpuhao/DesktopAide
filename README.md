@@ -14,7 +14,7 @@
     <a href="README.md"><strong>探索本项目的文档 »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/chenpuhao/DesktopAide/releases/download/DesktopAide/DesktopAide-withjre-3.3-setup.exe">下载安装包</a>
+    <a href="https://github.com/chenpuhao/DesktopAide/blob/main/README.md#%E5%8F%91%E8%A1%8C%E7%89%88%E6%9C%AC">下载安装包</a>
     ·
     <a href="https://github.com/chenpuhao/DesktopAide/blob/main/README.md#%E5%B7%B2%E7%9F%A5%E9%97%AE%E9%A2%98">报告Bug</a>
     ·

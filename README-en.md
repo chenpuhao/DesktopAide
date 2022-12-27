@@ -13,7 +13,7 @@
     <a href="README-en.md"><strong>Explore the documentation for this project »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/chenpuhao/DesktopAide/releases/download/DesktopAide/DesktopAide-withjre-3.3-setup.exe">Download the installation package</a>
+    <a href="https://github.com/chenpuhao/DesktopAide/blob/main/README-en.md#release-version">Download the installation package</a>
     ·
     <a href="https://github.com/chenpuhao/DesktopAide/blob/main/README-en.md#known-issues">Report a bug</a>
     ·
