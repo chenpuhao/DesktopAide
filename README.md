@@ -45,6 +45,7 @@
     * [部分代码](#部分代码)
     * [未来计划](#未来计划)
   * [发行版本](#发行版本)
+    * [V3.3.1 版本内容更新](#v331-版本内容更新)
     * [V3.3.0 版本内容更新](#v330-版本内容更新)
 <!-- TOC -->
 
@@ -136,7 +137,7 @@ public class Find extends JDialog {
 - [x] 完成第三版程序(完成日期:2022/12/01)
 - [x] 修复整理功能的默认模式(完成日期:2022/12/26)
 - [ ] 完成整理桌面功能新UI(完成日期:) 
-- [ ] ~~使用C#进行开发(完成日期:)~~
+- [ ] ~~使用C#进行开**发(完成日期:)~~
 
 ## 发行版本
 
@@ -149,5 +150,5 @@ public class Find extends JDialog {
 1. 新UI
 2. 优化大多数功能
 3. 关闭聊天功能
-4. [下载链接](https://github.com/chenpuhao/DesktopAide/releases/download/DesktopAide/DesktopAide-withjre-3.3-setup.exe)
+4. [下载链接](https://github.com/chenpuhao/DesktopAide/releases/download/DesktopAide/DesktopAide-withjre-3.3-setup.exe)**
 
