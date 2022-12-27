@@ -57,7 +57,7 @@ The project is licensed under the GPL-3.0 license, see [LICENSE](LICENSE)
 ### note
 1. If you can help me modify the code, please use IntelliJ IDEA, thanks! No IDEA?[Click me to download](https://www.jetbrains.com/zh-cn/idea/download/)
 2. The Java development front-end will be abandoned, and C# ~~(as long as the author remembers)~~ will be used
-3. So far, we do not provide English installation packages, if necessary, please clone to run locally
+3. ~~So far, we do not provide English installation packages, if necessary, please clone to run locally~~
 
 ### donate
 If you like this product, please generate electricity for me in love power generation, thank you:
