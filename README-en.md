@@ -65,7 +65,7 @@ The project is licensed under the GPL-3.0 license, see [LICENSE](LICENSE)
 
 ### donate
 If you like this product, please generate electricity for me in love power generation, thank you:
-[Point me to generate electricity](https://afdian.net/a/desktopaide)
+[Point me donate](https://afdian.net/a/desktopaide)
 
 ### Software screenshots
 1. #### Table pet interface (replaceable)
