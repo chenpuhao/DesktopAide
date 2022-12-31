@@ -15,7 +15,7 @@
     <br />
     <a href="https://github.com/chenpuhao/DesktopAide/blob/main/README-en.md#release-version">Download the installation package</a>
     ·
-    <a href="https://github.com/chenpuhao/DesktopAide/blob/main/README-en.md#known-issues">Report a bug</a>
+    <a href="mailto:chenpuhao1229@163.com?subject=Report a bug">Report a bug</a>
     ·
     <a href="README.md">Chinese interface</a>
   </p>
@@ -149,5 +149,5 @@ public class Find extends JDialog {
 1. New UI
 2. Optimize most features
 3. Turn off chat
-4. [Download the link](https://github.com/chenpuhao/DesktopAide/releases/download/DesktopAide/DesktopAide-withjre-3.3-setup.exe)
+4. [Download ](https://github.com/chenpuhao/DesktopAide/releases/download/DesktopAide/DesktopAide-withjre-3.3-setup.exe)
 
