@@ -56,7 +56,6 @@ It helps you organize your desktop and find files, especially for school teacher
 ### Copyright notice
 The project is licensed under the GPL-3.0 license, see [LICENSE](LICENSE)
 ### Known issues
-**If you find a bug during use, please list it in the table below or send it to chenpuhao1229@163.com, thank you**
 1. ~~The default type is not available in the Organize desktop, use a custom type~~
 ### note
 1. If you can help me modify the code, please use IntelliJ IDEA, thanks! No IDEA?[Click me to download](https://www.jetbrains.com/zh-cn/idea/download/)

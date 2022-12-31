@@ -60,7 +60,6 @@ DeskAide是一款开源的基于Windows系统的桌面程序
 ### 版权说明
 该项目签署了GPL-3.0 授权许可，详情请参阅[LICENSE](LICENSE)
 ### 已知问题
-**如果您在使用过程中发现了Bug，请在下表列出或者发送给chenpuhao1229@163.com，谢谢**
 1. ~~整理桌面中默认类型不可用，请使用自定义类型~~
 ### 注意
 1. 如果您可以帮助我修改代码，请使用IntelliJ IDEA，谢谢！没有IDEA?[点我去下载](https://www.jetbrains.com/zh-cn/idea/download/)
