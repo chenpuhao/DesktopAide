@@ -47,7 +47,7 @@ public class More extends JDialog {
             @Override
             public void mouseClicked(MouseEvent e) {
                 Cleaner clean = new Cleaner();
-                clean.start();
+                clean.Cleaner();
             }
         });
         JLabel LabelClean = new JLabel("Clean up temporary garbage");

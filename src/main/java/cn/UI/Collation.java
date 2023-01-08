@@ -8,6 +8,7 @@ import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.io.*;
 
+@SuppressWarnings({"ResultOfMethodCallIgnored", "ThrowFromFinallyBlock"})
 public class Collation extends JDialog {
     static String data;
     static void readAppointedLineNumber(File sourceFile, int lineNumber)

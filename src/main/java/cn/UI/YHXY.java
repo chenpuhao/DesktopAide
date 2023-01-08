@@ -10,12 +10,13 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 
+@SuppressWarnings("ResultOfMethodCallIgnored")
 public class YHXY extends JDialog {
     public String readFileToString(String fileName) {
         String encoding = "UTF-8";
         File file = new File(fileName);
-        Long filelength = file.length();
-        byte[] filecontent = new byte[filelength.intValue()];
+        long filelength = file.length();
+        byte[] filecontent = new byte[(int) filelength];
         FileInputStream in=null;
         try {
             in = new FileInputStream(file);
@@ -26,6 +27,7 @@ public class YHXY extends JDialog {
             return null;
         } finally {
             try {
+                assert in != null;
                 in.close();
             } catch (IOException e) {
                 // TODO 自动生成的 catch 块

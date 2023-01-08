@@ -49,6 +49,7 @@ public class CollationUI extends JDialog {
             }
         });
         qd.addMouseListener(new MouseAdapter() {
+            @SuppressWarnings({"ResultOfMethodCallIgnored", "ThrowFromFinallyBlock"})
             @Override
             public void mouseClicked(MouseEvent e) {
                 String filePath = "data/collation";

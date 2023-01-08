@@ -10,7 +10,6 @@ import java.awt.*;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.io.File;
-import java.io.FileFilter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
@@ -44,7 +43,6 @@ public class Find extends JDialog {
                 List<File> files = searchFiles(file3, s );
                 for (File file : files) {
                     File file1 = new File(file.getAbsolutePath());
-                    File file2 = file1.getParentFile();
                     if(jc.isSelected()) {
                         try {
                             Desktop.getDesktop().open(new File(file1.toURI()));
@@ -52,8 +50,6 @@ public class Find extends JDialog {
                             // TODO Auto-generated catch block
                             e1.printStackTrace();
                         }
-                    }else {
-
                     }
                 }
             }
@@ -69,20 +65,14 @@ public class Find extends JDialog {
         add(hp);
     }
     public static List<File> searchFiles(File folder, final String keyword) {
-        List<File> result = new ArrayList<File>();
+        List<File> result = new ArrayList<>();
         if (folder.isFile())
             result.add(folder);
-        File[] subFolders = folder.listFiles(new FileFilter() {
-            @Override
-            public boolean accept(File file) {
-                if (file.isDirectory()) {
-                    return true;
-                }
-                if (file.getName().toLowerCase().contains(keyword)) {
-                    return true;
-                }
-                return false;
+        File[] subFolders = folder.listFiles(file -> {
+            if (file.isDirectory()) {
+                return true;
             }
+            return file.getName().toLowerCase().contains(keyword);
         });
         if (subFolders != null) {
             for (File file : subFolders) {

@@ -14,11 +14,12 @@ public class YHXY extends JDialog {
     public String readFileToString(String fileName) {
         String encoding = "UTF-8";
         File file = new File(fileName);
-        Long filelength = file.length();
-        byte[] filecontent = new byte[filelength.intValue()];
+        long filelength = file.length();
+        byte[] filecontent = new byte[(int) filelength];
         FileInputStream in=null;
         try {
             in = new FileInputStream(file);
+            //noinspection ResultOfMethodCallIgnored
             in.read(filecontent);
             return new String(filecontent, encoding);
         } catch (IOException e) {
@@ -26,6 +27,7 @@ public class YHXY extends JDialog {
             return null;
         } finally {
             try {
+                assert in != null;
                 in.close();
             } catch (IOException e) {
                 // TODO 自动生成的 catch 块

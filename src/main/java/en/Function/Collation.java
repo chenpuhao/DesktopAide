@@ -4,7 +4,8 @@ import javax.swing.*;
 import java.io.*;
 import java.util.Map;
 
-public class Collation extends Thread {
+@SuppressWarnings("ResultOfMethodCallIgnored")
+public class Collation{
     static String name1 = null;
     static String result = null;
     static String name;
@@ -44,7 +45,8 @@ public class Collation extends Thread {
         return lines;
     }
 
-    public void run() {
+    @SuppressWarnings("MethodNameSameAsClassName")
+    public void Collation() {
         int lineNumber = 3;
         File sourceFile = new File("data/collation/collation.data");
         try {
@@ -160,6 +162,7 @@ public class Collation extends Thread {
         assert files != null;
         for(File i : files) {
             //判断是否是文件夹
+            //noinspection StatementWithEmptyBody
             if(i.isDirectory()) {
                 //是文件夹，递归
                 //findEndsWith(i,sword);

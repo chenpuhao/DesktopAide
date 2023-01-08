@@ -12,6 +12,7 @@ import java.awt.event.MouseEvent;
 import java.io.*;
 import java.nio.charset.StandardCharsets;
 
+@SuppressWarnings("ResultOfMethodCallIgnored")
 public class CollationUI extends JDialog {
     public CollationUI(MainUI UI) throws IOException {
         super(UI,"edit",true);
@@ -73,6 +74,7 @@ public class CollationUI extends JDialog {
                         try {
                             writer.close();
                         } catch (IOException ex) {
+                            //noinspection ThrowFromFinallyBlock
                             throw new RuntimeException(ex);
                         }
                     }

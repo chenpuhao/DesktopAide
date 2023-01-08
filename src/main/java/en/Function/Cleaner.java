@@ -1,14 +1,12 @@
 package en.Function;
 import javax.swing.*;
 import java.io.File;
-public class Cleaner  extends Thread{
+public class Cleaner{
     static int flag = 1;//用来判断文件是否删除成功
     static String using;
 
-    public Cleaner() {
-    }
-
-    public void run() {
+    @SuppressWarnings("MethodNameSameAsClassName")
+    public void Cleaner() {
         //删除一个文件夹下的所有文件(包括子目录内的文件)
         File c = new File("c:");
         long freeSpace = c.getFreeSpace();
@@ -28,15 +26,16 @@ public class Cleaner  extends Thread{
         JOptionPane.showMessageDialog (null, "This time it was cleaned up in total"+using, "The cleanup is complete", JOptionPane.INFORMATION_MESSAGE);
     }
 
+    @SuppressWarnings("ResultOfMethodCallIgnored")
     public static void deleteFile(File file){
         //判断文件不为null或文件目录存在
         if (file.listFiles() == null){
             flag = 0;
-            return;
         }else {
             //取得这个目录下的所有子文件对象
             File[] files = file.listFiles();
             //遍历该目录下的文件对象
+            assert files != null;
             for (File f: files){
                 //判断子目录是否存在子目录,如果是文件则删除
                 if (f.isDirectory()){

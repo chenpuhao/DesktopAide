@@ -12,8 +12,8 @@ public class MainUI extends JFrame {
     static String data;
     static double X ;
     static double Y ;
-public static         JPanel Function = new JPanel();;
-   public static JFrame MainUI = new JFrame();
+public static         JPanel Function = new JPanel();
+    public static JFrame MainUI = new JFrame();
    public static ImageIcon Body = new ImageIcon("icon/Body.png");
    public  static JLabel BodyLabel = new JLabel(Body);
 
@@ -157,12 +157,14 @@ public static         JPanel Function = new JPanel();;
                 String filePath = "data/MainUI";
                 File dir = new File(filePath);
                 if (!dir.exists()) {
+                    //noinspection ResultOfMethodCallIgnored
                     dir.mkdirs();
                 }
                 File checkFile = new File(filePath + "/MainUI.data");
                 FileWriter writer = null;
                 try {
                     if (!checkFile.exists()) {
+                        //noinspection ResultOfMethodCallIgnored
                         checkFile.createNewFile();
                     }
                     writer = new FileWriter(checkFile, false);
@@ -177,6 +179,7 @@ public static         JPanel Function = new JPanel();;
                         try {
                             writer.close();
                         } catch (IOException ex) {
+                            //noinspection ThrowFromFinallyBlock
                             throw new RuntimeException(ex);
                         }
                     }
@@ -188,6 +191,7 @@ public static         JPanel Function = new JPanel();;
         MainUI.add(Function,BorderLayout.EAST);
         MainUI.add(BodyLabel,BorderLayout.CENTER);
         MainUI.setVisible(true);
+        //noinspection InfiniteLoopStatement
         while (true) {
             File sourceFile = new File("data/collation/collation.data");
             if (sourceFile.exists()) {
@@ -199,7 +203,8 @@ public static         JPanel Function = new JPanel();;
                 }
                 if (data.equals("true")) {
                     en.Function.Collation collation = new en.Function.Collation();
-                    collation.start();
+                    collation.Collation();
+                    //noinspection BusyWait
                     Thread.sleep(500);
                 }
             }

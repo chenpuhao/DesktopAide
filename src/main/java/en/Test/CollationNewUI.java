@@ -42,6 +42,7 @@ public class CollationNewUI extends JDialog {
         time.setFont(new Font("宋体", Font.PLAIN, 30));
         jf.add(time,BorderLayout.NORTH);
         jf.setVisible(true);
+        //noinspection InfiniteLoopStatement
         while(true){
             date = new Date(System.currentTimeMillis());
             time.setText(formatter.format(date));

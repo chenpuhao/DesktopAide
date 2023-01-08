@@ -23,6 +23,7 @@ public class PiFu extends JDialog {
         this.setBounds((ds.width - 500) / 2, (ds.height - 300) / 2, 500, 300);
         File file = new File("icon/pictures");
         if (!file.exists()) {
+            //noinspection ResultOfMethodCallIgnored
             file.mkdir();
         }
         JLabel info = new JLabel("Please select an image:");
@@ -31,21 +32,23 @@ public class PiFu extends JDialog {
         JPanel jp = new JPanel();
         ButtonGroup bg = new ButtonGroup();
         String[] list = file.list();
-        for (int i = 0; i < list.length; i++) {
-            ImageIcon img = new ImageIcon(file + "\\" + list[i]);
-            File file2 = new File(file + "\\" + list[i]);
+        assert list != null;
+        for (String s : list) {
+            ImageIcon img = new ImageIcon(file + "\\" + s);
+            File file2 = new File(file + "\\" + s);
+            //noinspection StatementWithEmptyBody
             if (file2.isDirectory()) {
             } else {
-                JButton get = new JButton(list[i]);
+                JButton get = new JButton(s);
                 get.setIcon(img);
                 get.addMouseListener(new MouseAdapter() {
                     @Override
                     public void mouseClicked(MouseEvent e) {
                         String name = get.getText();
                         MainUI.MainUI.remove(MainUI.BodyLabel);
-                        ImageIcon i = new ImageIcon("icon/pictures/"+name);
-                        MainUI.BodyLabel =new JLabel(i);
-                        MainUI.MainUI.add(MainUI.BodyLabel,BorderLayout.CENTER);
+                        ImageIcon i = new ImageIcon("icon/pictures/" + name);
+                        MainUI.BodyLabel = new JLabel(i);
+                        MainUI.MainUI.add(MainUI.BodyLabel, BorderLayout.CENTER);
                         MainUI.MainUI.revalidate();
                         MainUI.MainUI.repaint();
                         PiFu.this.setVisible(false);
@@ -56,7 +59,7 @@ public class PiFu extends JDialog {
                 jsp.setViewportView(jp);
                 jp.add(get);
             }
-            this.add(jsp,BorderLayout.CENTER);
+            this.add(jsp, BorderLayout.CENTER);
         }
         JPanel button = new JPanel();
         button.setLayout(new GridLayout(1,3,1,1));

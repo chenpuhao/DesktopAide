@@ -10,6 +10,7 @@ import java.util.Date;
 public class CollationNewUI extends JDialog {
     static double X;
     static double Y;
+    @SuppressWarnings("InfiniteLoopStatement")
     public static void main(String[] args) {
 
         JFrame jf = new JFrame();

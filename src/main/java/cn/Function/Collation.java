@@ -4,7 +4,8 @@ import javax.swing.*;
 import java.io.*;
 import java.util.Map;
 
-public class Collation extends Thread {
+@SuppressWarnings({"MethodNameSameAsClassName", "StatementWithEmptyBody"})
+public class Collation {
     static String name1 = null;
     static String result = null;
     static String name;
@@ -44,7 +45,8 @@ public class Collation extends Thread {
         return lines;
     }
 
-    public void run() {
+    @SuppressWarnings("ResultOfMethodCallIgnored")
+    public void Collation() {
         int lineNumber = 3;
         File sourceFile = new File("data/collation/collation.data");
         try {
@@ -153,6 +155,7 @@ public class Collation extends Thread {
         }
     }
 
+    @SuppressWarnings("ResultOfMethodCallIgnored")
     public void findEndsWith(File file, String sword) {
         //将父文件下的所有文件夹以及文件存入File[]中
         File[] files = file.listFiles();

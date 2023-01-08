@@ -8,12 +8,13 @@ import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.io.*;
 
+@SuppressWarnings({"InfiniteLoopStatement", "BusyWait"})
 public class MainUI extends JFrame {
     static String data;
     static double X ;
     static double Y ;
-public static         JPanel Function = new JPanel();;
-   public static JFrame MainUI = new JFrame();
+public static         JPanel Function = new JPanel();
+    public static JFrame MainUI = new JFrame();
    public static ImageIcon Body = new ImageIcon("icon/Body.png");
    public  static JLabel BodyLabel = new JLabel(Body);
 
@@ -148,6 +149,7 @@ public static         JPanel Function = new JPanel();;
             }
         });
         Cancel.addMouseListener(new MouseAdapter() {
+            @SuppressWarnings("ResultOfMethodCallIgnored")
             @Override
             public void mouseClicked(MouseEvent e) {
                 int X = (int) e.getLocationOnScreen().getX()-183;
@@ -177,6 +179,7 @@ public static         JPanel Function = new JPanel();;
                         try {
                             writer.close();
                         } catch (IOException ex) {
+                            //noinspection ThrowFromFinallyBlock
                             throw new RuntimeException(ex);
                         }
                     }
@@ -199,7 +202,7 @@ public static         JPanel Function = new JPanel();;
                 }
                 if (data.equals("true")) {
                     cn.Function.Collation collation = new cn.Function.Collation();
-                    collation.start();
+                    collation.Collation();
                     Thread.sleep(500);
                 }
             }
