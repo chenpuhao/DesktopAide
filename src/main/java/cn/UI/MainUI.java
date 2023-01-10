@@ -13,9 +13,9 @@ public class MainUI extends JFrame {
     static String data;
     static double X ;
     static double Y ;
-public static         JPanel Function = new JPanel();
-    public static JFrame MainUI = new JFrame();
-   public static ImageIcon Body = new ImageIcon("icon/Body.png");
+public static final JPanel Function = new JPanel();
+    public static final JFrame MainUI = new JFrame();
+   public static final ImageIcon Body = new ImageIcon("icon/Body.png");
    public  static JLabel BodyLabel = new JLabel(Body);
 
 

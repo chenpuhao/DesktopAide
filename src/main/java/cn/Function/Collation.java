@@ -10,8 +10,8 @@ public class Collation {
     static String result = null;
     static String name;
     static String data;
-    static Map<String, String> map = System.getenv();
-    public static String userName = map.get("USERNAME");// 获取用户名
+    static final Map<String, String> map = System.getenv();
+    public static final String userName = map.get("USERNAME");// 获取用户名
     static void readAppointedLineNumber(File sourceFile, int lineNumber)
             throws IOException {
         FileReader in = new FileReader(sourceFile);

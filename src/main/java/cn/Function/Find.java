@@ -15,8 +15,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Find extends JDialog {
-    static JTextField jt = new JTextField();
-    static JTextField jt1 = new JTextField();
+    static final JTextField jt = new JTextField();
+    static final JTextField jt1 = new JTextField();
     static File file = new File(jt.getText());
     static String s = jt1.getText();
     public Find(MainUI UI) {

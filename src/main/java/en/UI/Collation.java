@@ -161,12 +161,14 @@ public class Collation extends JDialog {
                     String filePath = "data/collation";
                     File dir = new File(filePath);
                     if (!dir.exists()) {
+                        //noinspection ResultOfMethodCallIgnored
                         dir.mkdirs();
                     }
                     File checkFile = new File(filePath + "/collation.data");
                     FileWriter writer = null;
                     try {
                         if (!checkFile.exists()) {
+                            //noinspection ResultOfMethodCallIgnored
                             checkFile.createNewFile();
                         }
                         writer = new FileWriter(checkFile, false);
@@ -183,6 +185,7 @@ public class Collation extends JDialog {
                             try {
                                 writer.close();
                             } catch (IOException ex) {
+                                //noinspection ThrowFromFinallyBlock
                                 throw new RuntimeException(ex);
                             }
                         }
