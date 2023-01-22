@@ -14,6 +14,8 @@
     <br />
     <br />
     <a href="https://github.com/chenpuhao/DesktopAide/blob/main/README-en.md#release-version">Download the installation package</a>
+      ·
+    <a href="https://316myk-my.sharepoint.com/:f:/g/personal/chenpuhao_316myk_onmicrosoft_com/EgdXuj60H3BOoW3XWsFDTIYBIVsx5P7EUSQzpooeZKkXLQ?e=RSkUIs">Alternate download channels</a>
     ·
     <a href="mailto:chenpuhao1229@163.com?subject=Report a bug">Report a bug</a>
     ·
