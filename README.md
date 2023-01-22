@@ -11,7 +11,7 @@
   <p align="center">
    欢迎使用DesktopAide
     <br />
-    <a href="https://www.desktopaide.run.place/"><h3><strong>官方网站</strong></h3></a>
+    <a href="https://www.desktopaide.run.place/"><strong>官方网站</strong></a>
   <br />
     <a href="README.md"><strong>探索本项目的文档 »</strong></a>
     <br />
