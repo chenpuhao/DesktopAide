@@ -13,7 +13,7 @@
     <br />
     <a href="README.md"><strong>探索本项目的文档 »</strong></a>
     <br />
-  <a href="https://www.desktopaide.run.place/">官方网站</a>
+  <a href="https://www.desktopaide.run.place/"><strong>官方网站</strong></a>
     <br />
     <a href="https://github.com/chenpuhao/DesktopAide/blob/main/README.md#%E5%8F%91%E8%A1%8C%E7%89%88%E6%9C%AC">下载安装包</a>
   ·
