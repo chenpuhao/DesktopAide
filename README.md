@@ -13,7 +13,7 @@
    <br/>
    <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=6hE_meNolUOCo53YXSTdVFMu8zZCWEFGqs11nYrpuz5UMkwwSzNRU0lDWkpYRjJTVVBLQUlDT1FYNC4u"><strong>参与我们的调研</strong></a>
     <br />
-    <a href="https://www.desktopaide.run.place/"><strong>官方网站</strong></a>
+    <a href="https://desktopaide.chenpuhao.me/"><strong>官方网站</strong></a>
   <br />
   <a href="README.md"><strong>探索本项目的文档 »</strong></a>
   <br />
