@@ -1,0 +1,2 @@
+JAVA_VERSION="19.0.2"
+MODULES="java.base java.datatransfer java.xml java.prefs java.desktop"
