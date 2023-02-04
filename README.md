@@ -27,8 +27,8 @@
 ![](https://img.shields.io/github/watchers/chenpuhao/desktopaide-3.2.x)
 ![](https://img.shields.io/github/last-commit/chenpuhao/desktopaide-3.2.x)
 
-<center>语言版本</center>
-===
+语言版本
+==
 
 [简体中文](src/main/java/CN/README-CN.md)
 <br>
@@ -36,8 +36,8 @@
 <br>
 [русск(В настоящее время файлы README недоступны)](#)
 
-<center>注意</center>
-===
+注意
+==
 所有内容为机器翻译，如有错误，欢迎批评指正
 <br>
 All content is machine translation, if there are errors, criticism and correction are welcome
