@@ -19,13 +19,16 @@
 
   </p>
 
-![](https://img.shields.io/github/license/chenpuhao/desktopaide-3.2.x)
-![](https://img.shields.io/github/languages/count/chenpuhao/desktopaide-3.2.x)
-![](https://img.shields.io/github/languages/top/chenpuhao/desktopaide-3.2.x)
-![](https://img.shields.io/github/languages/code-size/chenpuhao/desktopaide-3.2.x)
-![](https://img.shields.io/github/stars/chenpuhao/desktopaide-3.2.x)
-![](https://img.shields.io/github/watchers/chenpuhao/desktopaide-3.2.x)
-![](https://img.shields.io/github/last-commit/chenpuhao/desktopaide-3.2.x)
+
+![](https://img.shields.io/github/license/chenpuhao/desktopaide)
+![](https://img.shields.io/github/languages/count/chenpuhao/DesktopAide)
+![](https://img.shields.io/github/languages/top/chenpuhao/desktopaide)
+![](https://img.shields.io/github/languages/code-size/chenpuhao/desktopaide)
+![](https://img.shields.io/github/downloads/chenpuhao/desktopaide/total)
+![](https://img.shields.io/github/stars/chenpuhao/desktopaide)
+![](https://img.shields.io/github/watchers/chenpuhao/desktopaide)
+![](https://img.shields.io/github/last-commit/chenpuhao/desktopaide)
+![](https://img.shields.io/github/release-date/chenpuhao/desktopaide)
 
 语言版本
 ==
