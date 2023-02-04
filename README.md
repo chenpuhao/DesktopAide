@@ -11,6 +11,8 @@
   <p align="center">
     欢迎使用DesktopAide
    <br/>
+  <a href="https://qm.qq.com/cgi-bin/qm/qr?k=f9bsc0Rw7_9i7cCWgKMcSNgrWohzmI5z&authKey=ScZtpf95RkpFWGgxsefyO2WzMPYNsBcxuoTWRfVaBl4A5HfbKNrruAw4K75ljQa7&noverify=0&personal_qrcode_source=0"><strong>加入官方QQ反馈群</strong></a>
+  <br/>
    <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=6hE_meNolUOCo53YXSTdVFMu8zZCWEFGqs11nYrpuz5UMkwwSzNRU0lDWkpYRjJTVVBLQUlDT1FYNC4u"><strong>参与我们的调研</strong></a>
     *
     <a href="https://desktopaide.chenpuhao.me/"><strong>官方网站</strong></a>
