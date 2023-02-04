@@ -10,10 +10,6 @@
 <h3 align="center">DesktopAide</h3>
   <p align="center">
     欢迎使用DesktopAide
-<br/>
-  这是DesktopAide的3.2.x测试版仓库
-<br/>
-如果想要使用稳定版DesktopAide请转至仓库<a href ="https://github.com/chenpuhao/DesktopAide">DesktopAide</a>
    <br/>
    <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=6hE_meNolUOCo53YXSTdVFMu8zZCWEFGqs11nYrpuz5UMkwwSzNRU0lDWkpYRjJTVVBLQUlDT1FYNC4u"><strong>参与我们的调研</strong></a>
     *
