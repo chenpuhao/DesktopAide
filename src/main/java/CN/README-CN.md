@@ -26,6 +26,7 @@
 ![](https://img.shields.io/github/languages/count/chenpuhao/DesktopAide)
 ![](https://img.shields.io/github/languages/top/chenpuhao/desktopaide)
 ![](https://img.shields.io/github/languages/code-size/chenpuhao/desktopaide)
+![](https://img.shields.io/github/repo-size/chenpuhao/desktopaide)
 ![](https://img.shields.io/github/downloads/chenpuhao/desktopaide/total)
 ![](https://img.shields.io/github/stars/chenpuhao/desktopaide)
 ![](https://img.shields.io/github/watchers/chenpuhao/desktopaide)
