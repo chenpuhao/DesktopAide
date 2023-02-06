@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://github.com/chenpuhao/DesktopAide">
-    <img src="./Icon/MoreUI/favicon.png" alt="Logo" width="80" height="80">
+    <img src="../../../../Icon/MoreUI/favicon.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">DesktopAide</h3>
@@ -26,6 +26,7 @@
 ![](https://img.shields.io/github/languages/count/chenpuhao/DesktopAide)
 ![](https://img.shields.io/github/languages/top/chenpuhao/desktopaide)
 ![](https://img.shields.io/github/languages/code-size/chenpuhao/desktopaide)
+![](https://img.shields.io/github/repo-size/chenpuhao/desktopaide)
 ![](https://img.shields.io/github/downloads/chenpuhao/desktopaide/total)
 ![](https://img.shields.io/github/stars/chenpuhao/desktopaide)
 ![](https://img.shields.io/github/watchers/chenpuhao/desktopaide)
