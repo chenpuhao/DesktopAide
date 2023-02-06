@@ -6,7 +6,6 @@ import static CN.UI.FunctionPanel.puppetPanel.puppet;
 
 /**
  * @author chenpuhao
- * @version 3.2.x
  * @Date 2023/2/4
  */
 public class PuppetRun extends Thread{

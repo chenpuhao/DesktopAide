@@ -9,7 +9,6 @@ import java.awt.event.MouseEvent;
 import java.io.*;
 import java.util.Map;
 /**
- * @version 3.2.x
  * @author chenpuhao
  * @Date 2023/2/4
  */

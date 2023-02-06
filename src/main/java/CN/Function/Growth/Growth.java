@@ -4,7 +4,6 @@ import java.io.*;
 import java.nio.charset.StandardCharsets;
 import java.util.Map;
 /**
- * @version 3.2.x
  * @author chenpuhao
  * @Date 2023/2/4
  */

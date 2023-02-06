@@ -2,6 +2,7 @@ package RUS.UI;
 
 import RUS.Function.Collation.Collation;
 import RUS.Function.Growth.Growth;
+import RUS.Function.Update.Update;
 import RUS.UI.MainUI.HelloUI;
 import RUS.UI.MainUI.MainUI;
 import com.formdev.flatlaf.FlatDarculaLaf;
@@ -42,11 +43,12 @@ public class Main {
             return null;
         }
     }
-    public static void main(String[] args) throws IOException, InterruptedException {
+    public static void main(String[] args) throws Exception {
         //使用look and feel
         FlatDarkLaf.setup();
         FlatDarculaLaf.setup();
         FlatDarkFlatIJTheme.setup();
+        new Update();
         Map<String, String> map = System.getenv();
         String userName = map.get("USERNAME");
         File folderPath = new File("C:\\Users\\" + userName + "\\.DesktopAide\\collation");

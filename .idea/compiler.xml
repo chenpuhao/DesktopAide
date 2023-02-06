@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="DesktopAide-3.2.x" />
+        <module name="DesktopAide" />
       </profile>
     </annotationProcessing>
   </component>

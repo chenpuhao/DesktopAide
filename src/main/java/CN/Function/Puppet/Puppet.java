@@ -3,7 +3,6 @@ package CN.Function.Puppet;
 import javax.swing.*;
 import java.awt.*;
 /**
- * @version 3.2.x
  * @author chenpuhao
  * @Date 2023/2/4
  */

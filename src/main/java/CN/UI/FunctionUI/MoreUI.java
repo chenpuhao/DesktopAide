@@ -10,7 +10,6 @@ import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.io.IOException;
 /**
- * @version 3.2.x
  * @author chenpuhao
  * @Date 2023/2/4
  */
