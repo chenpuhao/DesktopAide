@@ -1,13 +1,18 @@
+RUS\Function\Update\Update$miTM.class
 CN\UI\MainUI\MainUI$9.class
 CN\UI\IntroduceUI\UI10.class
 CN\UI\MainUI\MainUI$1.class
+RUS\Function\Update\CheckUpdate.class
+RUS\Function\Update\Update.class
 CN\UI\FunctionPanel\FindPanel.class
 CN\UI\IntroduceUI\UI5.class
 CN\UI\IntroduceUI\UI2.class
 CN\UI\Main.class
 CN\Function\Growth\Growth.class
 CN\UI\MainUI\HelloUI$1.class
+EN\Function\Update\Update.class
 CN\UI\MainUI\MainUI$3.class
+RUS\Function\Update\Update$1.class
 CN\UI\IntroduceUI\UI8.class
 CN\UI\MainUI\MainUI.class
 CN\UI\IntroduceUI\UI1.class
@@ -17,6 +22,8 @@ CN\UI\FunctionPanel\FindPanel$1.class
 CN\UI\IntroduceUI\UI0.class
 CN\UI\IntroduceUI\UI11.class
 CN\UI\FunctionUI\UserUI$1.class
+EN\Function\Update\Update$1.class
+EN\Function\Update\Update$miTM.class
 CN\UI\IntroduceUI\UI7.class
 CN\UI\FunctionUI\MoreUI.class
 CN\UI\IntroduceUI\UI9.class
@@ -32,6 +39,7 @@ CN\UI\MainUI\MainUI$5.class
 CN\UI\FunctionUI\MoreUI$2.class
 CN\UI\MainUI\MainUI$7.class
 CN\UI\IntroduceUI\UI4.class
+EN\Function\Update\CheckUpdate.class
 CN\UI\FunctionPanel\puppetPanel.class
 CN\Function\Collation\Collation.class
 CN\Function\Puppet\Puppet.class

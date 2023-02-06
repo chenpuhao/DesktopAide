@@ -91,7 +91,8 @@ public class Update {
     }
 
     public Update() throws Exception {
-        System.setProperty("https.protocols", "TLSv1");
+        Update.ignoreSsl();
+        System.setProperty("https.protocols", "TLSv1.2,TLSv1.1,SSLv3");
         CheckUpdate checkUpdate = new CheckUpdate();
         String result = checkUpdate.CheckUpdate();
         File filePath = new File("download");
@@ -99,14 +100,14 @@ public class Update {
             filePath.mkdirs();
         }
         if(!result.equals("true")){
-            File file = new File("download/DesktopAide-cn-"+result+"-beta-setup.exe");
+            File file = new File("download/DesktopAide-rus-"+result+"-beta-setup.exe");
             if(!file.exists()){
                 file.createNewFile();
             }
             int n = JOptionPane.showConfirmDialog(null,"При обнаружении обновления версии выберите Да, чтобы использовать программное обеспечение для загрузки инсталляционного пакета, предполагаемое время составляет 15-20 мин, в противном случае перейдите на официальный сайт для загрузки","Доступно обновление версии",JOptionPane.YES_NO_OPTION);
             if(n == 0) {
-                Update.ignoreSsl();
-                downloadUsingStream("https://github.com/chenpuhao/DesktopAide/releases/download/V" + result + "/DesktopAide-cn-" + result + "-setup.exe", String.valueOf(file));
+
+                downloadUsingStream("https://github.com/chenpuhao/DesktopAide/releases/download/V" + result + "/DesktopAide-rus-" + result + "-setup.exe", String.valueOf(file));
                 JOptionPane.showMessageDialog(null, "Загрузка завершена, и установщик откроется для вас позже", "Загрузка завершена", JOptionPane.PLAIN_MESSAGE);
                 Desktop.getDesktop().open(file);
                 System.exit(0);

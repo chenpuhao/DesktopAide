@@ -92,7 +92,8 @@ public class Update {
     }
 
     public Update() throws Exception {
-        System.setProperty("https.protocols", "TLSv1");
+        Update.ignoreSsl();
+        System.setProperty("https.protocols", "TLSv1.2,TLSv1.1,SSLv3");
         CheckUpdate checkUpdate = new CheckUpdate();
         String result = checkUpdate.CheckUpdate();
         File filePath = new File("download");
@@ -106,7 +107,7 @@ public class Update {
             }
             int n = JOptionPane.showConfirmDialog(null,"检测到有版本更新可用，选是则使用软件下载安装包，预计时间15-20min,选否则跳转官网下载","有版本更新可用",JOptionPane.YES_NO_OPTION);
             if(n == 0) {
-                Update.ignoreSsl();
+
                 downloadUsingStream("https://github.com/chenpuhao/DesktopAide/releases/download/V" + result + "/DesktopAide-cn-" + result + "-setup.exe", String.valueOf(file));
                 JOptionPane.showMessageDialog(null, "下载完成，稍后将为您打开安装程序", "下载完成", JOptionPane.PLAIN_MESSAGE);
                 Desktop.getDesktop().open(file);

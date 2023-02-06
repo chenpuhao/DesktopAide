@@ -91,7 +91,8 @@ public class Update {
     }
 
     public Update() throws Exception {
-        System.setProperty("https.protocols", "TLSv1");
+        Update.ignoreSsl();
+        System.setProperty("https.protocols", "TLSv1.2,TLSv1.1,SSLv3");
         CheckUpdate checkUpdate = new CheckUpdate();
         String result = checkUpdate.CheckUpdate();
         File filePath = new File("download");
@@ -105,7 +106,7 @@ public class Update {
             }
             int n = JOptionPane.showConfirmDialog(null,"If a version update is detected, select Yes to use the software to download the installation package, the estimated time is 15-20min, otherwise jump to the official website to download","A version update is available",JOptionPane.YES_NO_OPTION);
             if(n == 0) {
-                Update.ignoreSsl();
+
                 downloadUsingStream("https://github.com/chenpuhao/DesktopAide/releases/download/V" + result + "/DesktopAide-en-" + result + "-setup.exe", String.valueOf(file));
                 JOptionPane.showMessageDialog(null, "The download is complete and the installer will open for you later", "The download is complete", JOptionPane.PLAIN_MESSAGE);
                 Desktop.getDesktop().open(file);
