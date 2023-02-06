@@ -92,6 +92,7 @@ public class Update {
     }
 
     public Update() throws Exception {
+        System.setProperty("https.protocols", "TLSv1");
         CheckUpdate checkUpdate = new CheckUpdate();
         String result = checkUpdate.CheckUpdate();
         File filePath = new File("download");
