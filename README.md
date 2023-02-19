@@ -52,8 +52,8 @@ All content is machine translation, if there are errors, criticism and correctio
 
 翻译原则
 ==
-该国访问主站的数目达到100
+该国访问主站的数目达到500
 <br>
-The number of visits to the main site in the country reached 100
+The number of visits to the main site in the country reached 500
 <br>
-Количество посещений главной площадки в стране достигло 100
+Количество посещений главной площадки в стране достигло 500
