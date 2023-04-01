@@ -33,6 +33,10 @@
 ![](https://img.shields.io/github/last-commit/chenpuhao/desktopaide)
 ![](https://img.shields.io/github/release-date/chenpuhao/desktopaide)
 
+针对无网或弱网用户
+==
+请加入[QQ群](https://qm.qq.com/cgi-bin/qm/qr?k=f9bsc0Rw7_9i7cCWgKMcSNgrWohzmI5z&authKey=ScZtpf95RkpFWGgxsefyO2WzMPYNsBcxuoTWRfVaBl4A5HfbKNrruAw4K75ljQa7&noverify=0&personal_qrcode_source=0)获取下载安装包，也适用于出现Connection timed out错误的用户
+
 语言版本
 ==
 
