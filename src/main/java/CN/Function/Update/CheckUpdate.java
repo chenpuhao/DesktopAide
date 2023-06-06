@@ -51,7 +51,7 @@ public class CheckUpdate {
         downloadUsingStream("https://desktopaide.chenpuhao.me/update.txt",file.toString());
         readAppointedLineNumber(file);
         file.delete();
-        if(result.equals("3.4.1")){
+        if(result.equals("3.4.3")){
             result = "true";
         }
         return result;

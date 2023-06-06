@@ -33,6 +33,12 @@
 ![](https://img.shields.io/github/last-commit/chenpuhao/desktopaide)
 ![](https://img.shields.io/github/release-date/chenpuhao/desktopaide)
 
+注意 
+==
+从3.4.3版本起，DesktopAide更名为DesktopAide community且因高三的学业压力，目前只支持中文（其余语言安装包请耐心等待。。。。）
+
+Starting from version 3.4.3, DesktopAide is renamed DesktopAide community. Due to the academic pressure of senior high school, only Chinese is currently supported (please wait patiently for installation packages of other languages...). 
+
 针对无网或弱网用户
 ==
 请加入[QQ群](https://qm.qq.com/cgi-bin/qm/qr?k=f9bsc0Rw7_9i7cCWgKMcSNgrWohzmI5z&authKey=ScZtpf95RkpFWGgxsefyO2WzMPYNsBcxuoTWRfVaBl4A5HfbKNrruAw4K75ljQa7&noverify=0&personal_qrcode_source=0)获取下载安装包，也适用于出现Connection timed out错误的用户
@@ -41,10 +47,6 @@
 ==
 
 [简体中文](src/main/java/CN/README-CN.md)
-<br>
-[English](src/main/java/EN/README-EN.md)
-<br>
-[русск(В настоящее время файлы README недоступны)](#)
 
 注意
 ==
@@ -54,10 +56,3 @@ All content is machine translation, if there are errors, criticism and correctio
 <br>
 Весь контент является машинным переводом, если есть ошибки, критика и исправление приветствуются
 
-翻译原则
-==
-该国访问主站的数目达到500
-<br>
-The number of visits to the main site in the country reached 500
-<br>
-Количество посещений главной площадки в стране достигло 500
